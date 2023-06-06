@@ -9,3 +9,7 @@ We carried out this study over a simulation environment named Deeds (Digital Ele
 and to know more about the exercises contents of each session see 'exercises_info.txt'. 
 
 Our data set contains the students' time series of activities during six sessions of laboratory sessions of the course of digital electronics. There are 6 folders containing the students’ data per session. Each 'Session' folder contains up to 99 CSV files each dedicated to a specific student log during that session. The number of files in each folder changes due to the number of students present in each session. Each file contains 13 features. See 'features_info.txt' for more details.
+
+
+MY MODEL TAKE 16 INPUT OR ELSE 1 INPUT WHICH IS TOTAL IN Educational Process Mining (EPM):A Learning Analytics Data Set and according to this dataset it will tell you were good with pass , or else fair & pass or else you were weak and fail in all this lab 
+
