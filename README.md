@@ -14,3 +14,7 @@ Our data set contains the students' time series of activities during six session
 MY MODEL TAKE 16 INPUT OR ELSE 1 INPUT WHICH IS TOTAL IN Educational Process Mining (EPM):A Learning Analytics Data Set and according to this dataset it will tell you were good with pass , or else fair & pass or else you were weak and fail in all this lab 
 ![image](https://github.com/Ajay-308/Educational-Process-Mining-datasets/assets/112794893/c6a1c8c5-b2a2-43bf-a605-69959641831e)
 
+
+to run : streamlit run epm.py
+
+
