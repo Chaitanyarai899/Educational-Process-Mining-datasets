@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import numpy as np
 
-model = pickle.load(open(r"C:\Users\mraja\Downloads\ml project\edupm.pkl", 'rb'))
+model = pickle.load(open(r"C:\Users\mraja\Downloads\ml project\educateprocess.pkl", 'rb'))
 
 st.title('Epm pass-fail predictor')
 
