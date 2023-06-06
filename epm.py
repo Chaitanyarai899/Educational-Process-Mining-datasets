@@ -8,23 +8,19 @@ st.title('Epm pass-fail predictor')
 
 cols = []
 
-features_to_drop = ['student id', 'total marks']
+total_marks = st.number_input("Enter total marks", value=0.0, step=0.1)
 
 for i in range(16):
-    if i+1 in features_to_drop:
-        continue
     col = st.number_input(f"Enter lab marks {i+1}", value=0.0, step=0.1)
     cols.append(col)
-
-total_marks = st.number_input("Enter total marks", value=0.0, step=0.1)
 
 cols.append(total_marks)
 
 if st.button('Predict pass/fail'):
-    marks = np.array(cols).reshape(1, -1)
-
-    if all(cols):
+    if total_marks:
+        marks = np.array([cols[-1]]).reshape(1, -1)
         prediction = model.predict(marks)
+
         if prediction == 0:
             st.write('Result: Good & pass')
         elif prediction == 1:
@@ -32,4 +28,8 @@ if st.button('Predict pass/fail'):
         else:
             st.write('Result: weak & fail')
     else:
-        st.error("Please fill in all the required fields.")
+        st.error("Please fill in the total marks field.")
+
+# Embedding YouTube video
+video_url = "https://youtu.be/aWxQc4mCy_w"  # Replace with your YouTube video URL or ID
+st.video(video_url)
