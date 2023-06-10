@@ -30,6 +30,6 @@ if st.button('Predict pass/fail'):
     else:
         st.error("Please fill in the total marks field.")
 
-# Embedding YouTube video
-video_url = "https://youtu.be/HAo9AwIGdTI"  # Replace with your YouTube video URL or ID
+
+video_url = "https://youtu.be/HAo9AwIGdTI"  
 st.video(video_url)
